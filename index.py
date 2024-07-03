@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, session, redirect, url_for
 from data_base import Checker_User
 
+def test_dummy():
+    pass
 
 app = Flask(__name__)
 
